@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace NestedObjects {
     class Student {
+
+        public Student() {
+            AssignedAdvisor = new Advisor();
+        }
+
         public string Name { get; set; }
         public DateTime? DOB { get; set; }
 
