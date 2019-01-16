@@ -7,23 +7,23 @@ using System.Threading.Tasks;
 namespace NestedObjects {
     class Course {
         /// <summary>
-        /// The name of the class
+        /// The name of the course
         /// </summary>
         public string Title { get; set; }
 
         /// <summary>
-        /// The number of credits this class is worth
+        /// The number of credits this course is worth
         /// </summary>
-        public string Credits { get; set; }
+        public byte Credits { get; set; }
 
         /// <summary>
-        /// The description of the class
+        /// The description of the course
         /// </summary>
         public string Description { get; set; }
 
         /// <summary>
         /// The number of hours the course is in one quarter
         /// </summary>
-        public string Hours { get; set; }
+        public Instructor CourceInstructor { get; set; }
     }
 }
