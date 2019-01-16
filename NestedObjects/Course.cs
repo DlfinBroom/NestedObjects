@@ -22,7 +22,7 @@ namespace NestedObjects {
         public string Description { get; set; }
 
         /// <summary>
-        /// The number of hours the course is in one quarter
+        /// The Instructor who teaches the course
         /// </summary>
         public Instructor CourceInstructor { get; set; }
     }
